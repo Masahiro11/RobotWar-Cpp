@@ -39,7 +39,6 @@ void TurretRobotCpp::run()
 {
     while (true)
     {
-        this->robotBoundingBox();
         switch (this->currentState)
         {
             case TurretRobotCppAction::FIRING:
@@ -65,5 +64,4 @@ void TurretRobotCpp::run()
 void TurretRobotCpp::bulletHitEnemy(RWVec enemyPosition)
 {
     this->timeSinceLastEnemyHit = this->currentTimestamp();
-    this->robotBoundingBox();
 }

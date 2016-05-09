@@ -15,6 +15,7 @@
 #include "TurretRobotCpp.h"
 #include "NewAdvancedRobotCpp.h"
 #include "LiveRobotCpp.h"
-#include "Tokutya.hpp"
+#include "GahakuRobotCpp.h"
+#include "AsadaRobotCpp.h"
 
 #endif

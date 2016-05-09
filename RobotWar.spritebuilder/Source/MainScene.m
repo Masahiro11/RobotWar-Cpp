@@ -205,6 +205,7 @@
   
   if (self.currentTimestamp > START_BOMBS && timeSinceBomb > BETWEEN_BOMBS) {
       [self dropBomb];
+      NSLog(@"%f", self.currentTimestamp);
       [self updateTimeSinceBomb:0.0f];
   }
     
@@ -285,6 +286,7 @@
     
   CGPoint bombPos = ccpAdd(cornerPosition, diffFromCorner);
     
+    /*
     NSLog(@"------------------------------------");
     NSLog(@"%f", cornerPosition.x);
     NSLog(@"%f", cornerPosition.y);
@@ -297,6 +299,8 @@
     NSLog(@"bombpos_x : %f", bombPos.x);
     NSLog(@"bombpos_y : %f", bombPos.y);
     NSLog(@"%f", [self dimensions].width/2);
+    
+    */
     
     
   
